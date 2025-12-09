@@ -1,0 +1,25 @@
+{
+  "name": "xinyang.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "about.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24019028xy/xinyang.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/24019028xy/xinyang.github.io/issues"
+  },
+  "homepage": "https://github.com/24019028xy/xinyang.github.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.8"
+  }
+}

@@ -4,29 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>My Portfolio</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="about.html">About Me</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">MyPortfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-<div class="container">
-    <h2>Welcome to My Portfolio</h2>
-    <p>Hello! I am [Your Name], a web developer. Explore my work and learn more about me.</p>
-</div>
+<!-- Hero Section -->
+<section class="bg-light py-5 text-center">
+  <div class="container">
+    <h1 class="animate__animated animate__fadeInDown">Welcome to My Portfolio</h1>
+    <p class="lead animate__animated animate__fadeInUp">I create modern, responsive websites.</p>
+    <a href="portfolio.html" class="btn btn-primary btn-lg mt-3 animate__animated animate__fadeInUp animate__delay-1s">View My Work</a>
+  </div>
+</section>
 
+<!-- Footer -->
 <footer>
     &copy; 2025 Your Name
 </footer>
 
+<!-- JS -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="home.js"></script>
 </body>
 </html>

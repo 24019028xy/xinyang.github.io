@@ -1,61 +1,28 @@
-/* Reset default styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
+/* Custom styles for portfolio */
 body {
-    background-color: #f5f5f5;
-    color: #333;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+/* Navbar link active highlight */
+.nav-link.active {
+    text-decoration: underline;
 }
 
-nav a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #ffd700;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
-h1, h2 {
-    margin-bottom: 15px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
-}
-
-/* Hover effect for portfolio items */
+/* Portfolio item hover effect */
 ul li {
     margin-bottom: 10px;
     cursor: pointer;
     transition: transform 0.2s;
 }
-
 ul li:hover {
     transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
