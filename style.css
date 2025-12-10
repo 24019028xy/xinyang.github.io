@@ -1,0 +1,87 @@
+/* GLOBAL GRADIENT BACKGROUND */
+body {
+    background: linear-gradient(135deg, #0d0d0d, #1a1a40, #3b0a75);
+    min-height: 100vh;
+    background-attachment: fixed;
+    color: #e0e0e0;
+}
+
+/* Transparent page containers */
+.container {
+    background: transparent;
+    padding: 25px 30px; /* smaller padding for balance */
+    border-radius: 12px;
+    backdrop-filter: none;
+}
+
+/* SLIM NAVBAR WITH DARK PURPLE GRADIENT */
+.navbar.navbar-dark.bg-dark {
+    min-height: 50px !important; /* slim */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background: linear-gradient(90deg, #11041d, #170220) !important; /* dark purple gradient */
+}
+
+/* Navbar inner container padding */
+.navbar .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* bold */
+    font-size: 1.5rem; 
+    line-height: 50px; /* vertically center */
+    transition: 0.3s ease;
+}
+
+.navbar-brand:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Navbar links font */
+.navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif; /* set font */
+    font-weight: 500; /* medium weight for elegance */
+    letter-spacing: 0.5px; /* slight spacing for readability */
+    font-size: 1.1rem;
+    line-height: 50px; /* vertically center */
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 1rem;
+    transition: 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #9bb8ff !important;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+/* BUTTON HOVER */
+.btn {
+    transition: 0.25s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 12px rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+
+/* CARD HOVER */
+.card {
+    transition: 0.3s ease;
+    background-color: #111122;
+    color: white;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255,255,255,0.15);
+    cursor: pointer;
+}
